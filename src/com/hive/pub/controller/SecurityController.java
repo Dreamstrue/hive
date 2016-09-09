@@ -24,7 +24,7 @@ public class SecurityController extends Controller {
 			if(user!=null){
 				if(user.getPassword().equals(pwd)){
 					setSessionAttr("User",user);
-					render("/index.jsp");
+					render("/index_bs.jsp");
 				}else{
 					this.setAttr("msg", "用户名或密码错误");
 					render("/login.jsp");
@@ -34,7 +34,7 @@ public class SecurityController extends Controller {
 				render("/login.jsp");
 			}
 		}else{
-			render("/login.jsp");
+			render("/index_bs.jsp");
 		}
 	}
 	public void logout(){
