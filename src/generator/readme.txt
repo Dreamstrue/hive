@@ -1,0 +1,1 @@
+GeneratorDemo.java生成器用来自动生成Model以及Model和数据库中表的映射关系

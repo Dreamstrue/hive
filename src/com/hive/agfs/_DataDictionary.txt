@@ -1,0 +1,30 @@
+Table: menu
+--------------+--------------+------+-----+---------+---------
+ Field        | Type         | Null | Key | Default | Remarks 
+--------------+--------------+------+-----+---------+---------
+ id           | BIGINT(19)   | NO   | PRI |         |         
+ menuIcon     | VARCHAR(200) | YES  |     |         |         
+ parentMenuId | BIGINT(19)   | NO   |     |         |         
+ orderNum     | INT(10)      | NO   |     |         |         
+ menuName     | VARCHAR(40)  | NO   |     |         |         
+ menuUrl      | VARCHAR(500) | YES  |     |         |         
+--------------+--------------+------+-----+---------+---------
+
+Table: user
+-------------+-------------+------+-----+---------+---------
+ Field       | Type        | Null | Key | Default | Remarks 
+-------------+-------------+------+-----+---------+---------
+ id          | VARCHAR(32) | NO   | PRI |         |         
+ age         | VARCHAR(3)  | YES  |     |         |         
+ auditTime   | DATE(10)    | NO   |     |         |         
+ createTime  | DATE(10)    | NO   |     |         |         
+ email       | VARCHAR(20) | YES  |     |         |         
+ idCard      | VARCHAR(20) | YES  |     |         |         
+ isValid     | VARCHAR(1)  | NO   |     |         |         
+ mobilePhone | VARCHAR(12) | NO   |     |         |         
+ password    | VARCHAR(15) | NO   |     |         |         
+ sex         | VARCHAR(2)  | NO   |     |         |         
+ userAccount | VARCHAR(20) | NO   |     |         |         
+ userName    | VARCHAR(20) | NO   |     |         |         
+-------------+-------------+------+-----+---------+---------
+
