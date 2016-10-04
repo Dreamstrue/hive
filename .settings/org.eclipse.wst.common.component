@@ -3,6 +3,7 @@
     <wb-module deploy-name="hive">
         <wb-resource deploy-path="/" source-path="/WebRoot"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/res"/>
         <property name="context-root" value="/hive"/>
         <property name="java-output-path" value="/hive/WebRoot/WEB-INF/classes"/>
     </wb-module>

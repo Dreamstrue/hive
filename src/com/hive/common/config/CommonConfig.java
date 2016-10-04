@@ -53,7 +53,7 @@ public class CommonConfig extends JFinalConfig{
 
 	@Override
 	public void configRoute(Routes r) {
-		r.add("/",SecurityController.class);
+		r.add("/",LayoutController.class);
 		r.add("/security",SecurityController.class);
 		r.add("/layout",LayoutController.class);
 		r.add("/menu",MenuController.class);

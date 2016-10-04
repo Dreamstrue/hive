@@ -1,9 +1,15 @@
 package com.hive.pub.controller;
 
+
+
 import com.jfinal.core.Controller;
 
 public class LayoutController extends Controller {
 	
+	
+	public void index() {
+		render("/index_bs.jsp");
+	}
 	public void north() {
 		System.out.println("执行north方法");
 		render("/view/layout/north.jsp");

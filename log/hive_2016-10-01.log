@@ -1,0 +1,4 @@
+2016-10-01 16:03:32,753-[TS] INFO http-8080-1 com.hive.pub.controller.SecurityController - µÇÂ½ÁËÅ¶¹þ¹þ¹þ%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+2016-10-01 16:03:32,756-[TS] ERROR http-8080-1 com.hive.pub.controller.SecurityController - µÇÂ½ÁËÅ¶¹þ¹þ¹þ%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+2016-10-01 16:03:33,923-[TS] INFO http-8080-4 com.hive.pub.controller.SecurityController - µÇÂ½ÁËÅ¶¹þ¹þ¹þ%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+2016-10-01 16:03:33,923-[TS] ERROR http-8080-4 com.hive.pub.controller.SecurityController - µÇÂ½ÁËÅ¶¹þ¹þ¹þ%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

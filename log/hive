@@ -1,0 +1,8 @@
+2016-10-04 16:18:52,350-[TS] INFO http-8080-1 com.hive.pub.controller.SecurityController - 登陆了哦哈哈哈%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+2016-10-04 16:18:52,353-[TS] ERROR http-8080-1 com.hive.pub.controller.SecurityController - 登陆了哦哈哈哈%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+2016-10-04 16:18:53,547-[TS] INFO http-8080-3 com.hive.pub.controller.SecurityController - 登陆了哦哈哈哈%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+2016-10-04 16:18:53,563-[TS] ERROR http-8080-3 com.hive.pub.controller.SecurityController - 登陆了哦哈哈哈%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+2016-10-04 16:25:05,527-[TS] INFO http-8080-1 com.hive.pub.controller.SecurityController - 登陆了哦哈哈哈%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+2016-10-04 16:25:05,529-[TS] ERROR http-8080-1 com.hive.pub.controller.SecurityController - 登陆了哦哈哈哈%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+2016-10-04 16:25:07,030-[TS] INFO http-8080-1 com.hive.pub.controller.SecurityController - 登陆了哦哈哈哈%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+2016-10-04 16:25:07,030-[TS] ERROR http-8080-1 com.hive.pub.controller.SecurityController - 登陆了哦哈哈哈%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

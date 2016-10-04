@@ -5,6 +5,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import org.apache.commons.lang3.StringUtils;
+
 public class MenuVo {
 	private Long id;
 
@@ -43,7 +45,11 @@ public class MenuVo {
 	}
 
 	public void setUrl(String url) {
-		this.url = url;
+		if(StringUtils.isNotBlank(url)){
+			this.url = url;
+		}else{
+			this.url = "";
+		}
 	}
 
 	public int getSeq() {

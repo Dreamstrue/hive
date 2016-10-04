@@ -1,0 +1,1 @@
+log4j和commons-logging.jar或者slf4j.jar配合使用，在使用slf4j-api-1.6.1.jar时搭配着使用slf4j-log4j12-1.6.1.jar，因为
