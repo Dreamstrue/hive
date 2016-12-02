@@ -6,6 +6,7 @@ import com.hive.interceptor.SecurityInterceptor;
 import com.hive.pub.controller.LayoutController;
 import com.hive.pub.controller.MenuController;
 import com.hive.pub.controller.SecurityController;
+import com.hive.weiquan.controller.WeiQuanController;
 import com.jfinal.config.Constants;
 import com.jfinal.config.Handlers;
 import com.jfinal.config.Interceptors;
@@ -57,6 +58,7 @@ public class CommonConfig extends JFinalConfig{
 		r.add("/security",SecurityController.class);
 		r.add("/layout",LayoutController.class);
 		r.add("/menu",MenuController.class);
+		r.add("/weiquan",WeiQuanController.class);
 	}
 
 }

@@ -51,6 +51,30 @@ CREATE TABLE `menu` (
 是否更新现网：	无
 更新现网时间：	无
 ###########################
+###########################
+修改时间:		2016-12-02
+修改人：		yyf
+修改内容：		创建维权消费者表
+SQL:     
+  
+CREATE TABLE `weiquanxiaofeizhe` (
+  `id` varchar(255) NOT NULL,
+  `buyAddress` varchar(100) DEFAULT NULL,
+  `buyThings` varchar(100) DEFAULT NULL,
+  `buyTime` datetime NOT NULL,
+  `isComplain` varchar(32) NOT NULL,
+  `mobilePhone` varchar(32) NOT NULL,
+  `money` varchar(32) NOT NULL,
+  `remark` varchar(500) NOT NULL,
+  `userName` varchar(32) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+修改原因：		
+是否测试：		本地已测试
+是否更新现网：	无
+更新现网时间：	无
+###########################
 
 
 

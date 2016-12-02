@@ -1,3 +1,12 @@
+Table: blog
+---------+----------------------+------+-----+---------+---------
+ Field   | Type                 | Null | Key | Default | Remarks 
+---------+----------------------+------+-----+---------+---------
+ id      | INT(10)              | NO   | PRI |         |         
+ title   | VARCHAR(200)         | NO   |     |         |         
+ content | MEDIUMTEXT(16777215) | NO   |     |         |         
+---------+----------------------+------+-----+---------+---------
+
 Table: menu
 --------------+--------------+------+-----+---------+---------
  Field        | Type         | Null | Key | Default | Remarks 
@@ -27,4 +36,19 @@ Table: user
  userAccount | VARCHAR(20) | NO   |     |         |         
  userName    | VARCHAR(20) | NO   |     |         |         
 -------------+-------------+------+-----+---------+---------
+
+Table: weiquanxiaofeizhe
+-------------+--------------+------+-----+---------+---------
+ Field       | Type         | Null | Key | Default | Remarks 
+-------------+--------------+------+-----+---------+---------
+ id          | VARCHAR(255) | NO   | PRI |         |         
+ buyAddress  | VARCHAR(100) | YES  |     |         |         
+ buyThings   | VARCHAR(100) | YES  |     |         |         
+ buyTime     | DATETIME(19) | NO   |     |         |         
+ isComplain  | VARCHAR(32)  | NO   |     |         |         
+ mobilePhone | VARCHAR(32)  | NO   |     |         |         
+ money       | VARCHAR(32)  | NO   |     |         |         
+ remark      | VARCHAR(500) | NO   |     |         |         
+ userName    | VARCHAR(32)  | NO   |     |         |         
+-------------+--------------+------+-----+---------+---------
 

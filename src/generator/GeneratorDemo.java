@@ -26,7 +26,7 @@ public class GeneratorDemo {
 	}
 	
 	public static void main(String[] args) {
-		String rootPackageName = "com.hive.agfs";//所在报名，即java文件中的package
+		String rootPackageName = "com.hive.agfs";//所在包名，即java文件中的package
 		String rootOutputDir = PathKit.getWebRootPath() + "/../src/com/hive/agfs";//生成文件要输出的位置
 		// base model 所使用的包名
 		String baseModelPackageName = rootPackageName+".base";
