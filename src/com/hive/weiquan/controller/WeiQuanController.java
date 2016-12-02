@@ -21,7 +21,7 @@ public class WeiQuanController extends Controller{
 		render("/login.jsp");
 	}
 	
-	public void add() {
+	public void addweiquan() {
 		try {
 			
 			// 获取页面数据
@@ -34,16 +34,27 @@ public class WeiQuanController extends Controller{
 			String isComplain = this.getPara("isComplain");// 下一环节的处理人部门和角色
 			String remark = this.getPara("remark");
 			Weiquanxiaofeizhe wf = new Weiquanxiaofeizhe();
-			wf.setId(UUID.getUUIDString());
-			wf.setUserName(userName);
-			wf.setMobilePhone(mobilePhone);
-			wf.setMoney(money);
-			wf.setBuyTime(DateUtil.format(buyTime, ""));
-			wf.setBuyAddress(buyAddress);
-			wf.setBuyThings(buyThings);
-			wf.setIsComplain(isComplain);
-			wf.setRemark(remark);
+			wf.put("id",UUID.getUUIDString());
+			wf.put("userName",userName);
+			wf.put("mobilePhone",mobilePhone);
+			wf.put("money",money);
+			wf.put("buyTime",buyTime);
+			wf.put("buyAddress",buyAddress);
+			wf.put("buyThings",buyThings);
+			wf.put("isComplain","1");
+			wf.put("remark",remark);
+//			wf.
+//			wf.setId(UUID.getUUIDString());
+//			wf.setUserName(userName);
+//			wf.setMobilePhone(mobilePhone);
+//			wf.setMoney(money);
+//			wf.setBuyTime(DateUtil.format(buyTime, ""));
+//			wf.setBuyAddress(buyAddress);
+//			wf.setBuyThings(buyThings);
+//			wf.setIsComplain(isComplain);
+//			wf.setRemark(remark);
 			System.out.println();
+			wf.save();
 			
 			/*String ccRoleid = "";//抄送确认人角色id
         	String ccOrganid = "";//抄送确认人部门id
@@ -137,6 +148,7 @@ public class WeiQuanController extends Controller{
 	        for (UploadFile uploadFile : uploadFileList) {
 	            BaseSheetFile.dao.saveFile(uploadFile, baseSheetId, "抄送",username,operLogId);
 	        }*/
+			setAttr("status", true);
 			renderJson();
 		} catch (Exception e) {
 			e.printStackTrace();

@@ -42,7 +42,7 @@ session.setAttribute("path", path);
         </table>
         <footer style="padding:2px 3px">
             <div style="text-align:center;margin-top:30px">
-                <a href="#" class="easyui-linkbutton" style="width:100%;height:40px"><span style="font-size:16px">我也要投诉</span></a>
+                <a href="${path }/view/weiQuan/add.jsp" class="easyui-linkbutton" style="width:100%;height:40px"><span style="font-size:16px">我也要投诉</span></a>
             </div>
             
         </footer>

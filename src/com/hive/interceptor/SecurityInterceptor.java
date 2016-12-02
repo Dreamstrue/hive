@@ -12,7 +12,7 @@ public class SecurityInterceptor implements Interceptor{
 		Controller ctl = me.getController();
 		User user = ctl.getSessionAttr("User");
 		System.out.println("检查了一下"+ctl.getClass().getName()+"的"+me.getMethodName()+"方法！");
-		if(user==null&&!me.getMethodName().equals("login")){
+		if(user==null&&!me.getMethodName().equals("login")&&!me.getMethodName().equals("addweiquan")){
 			ctl.render("/login.jsp");
 		}else{
 			me.invoke();
